@@ -1,81 +1,85 @@
-# AtliQ Hardwares – Sales & P&L Analysis Dashboard
+# AtliQ Hardwares – Sales & P&L Analysis
 
 ## 📊 Project Overview
 
-This project presents a **Business Intelligence and Sales Analytics solution for AtliQ Hardwares**. The analysis focuses on understanding sales performance, market performance against targets, customer contribution, and Profit & Loss (P&L) trends across multiple fiscal years.
+This project presents a **Sales and Profit & Loss (P&L) Analysis for AtliQ Hardwares**, created using Microsoft Excel.
 
-The project provides insights into:
+The analysis focuses on understanding business performance across **customers, markets, fiscal years, and months**.
 
-* Customer-wise sales performance
-* Market-wise performance against targets
-* Year-wise Profit & Loss performance
-* Market-wise Profit & Loss performance
-* Monthly and fiscal-year sales and profitability trends
-
-All monetary values are presented in the units specified in the respective reports.
+The project covers sales performance, market performance against targets, revenue and cost analysis, gross margins, and year-over-year trends.
 
 ---
 
-## 🎯 Business Objectives
+## 🎯 Project Objectives
 
-The primary objectives of this project are to:
+The main objectives of this analysis are to:
 
-1. Analyze the company's overall sales growth over multiple fiscal years.
-2. Understand customer-wise contribution to net sales.
-3. Compare market performance against predefined targets.
-4. Analyze Cost of Goods Sold (COGS), Gross Margin, and Gross Margin %.
-5. Identify monthly and quarterly sales trends.
-6. Compare financial performance across different markets.
-7. Provide a consolidated view of business performance to support data-driven decision-making.
+* Analyze overall sales performance across fiscal years
+* Evaluate customer-wise sales performance
+* Compare market performance against targets
+* Analyze Net Sales, COGS, Gross Margin, and Gross Margin %
+* Understand monthly sales and profitability trends
+* Compare financial performance across different markets
+* Analyze year-over-year growth
+* Identify key business performance trends
 
 ---
 
-## 📁 Project Reports
+## 🛠️ Tool Used
 
-The project contains the following analytical reports:
+**Microsoft Excel**
+
+The analysis was performed using Excel-based data analysis and Pivot Table reporting.
+
+---
+
+## 📁 Reports Included
+
+This repository contains the following five reports:
 
 ### 1. Customer Performance Report
 
-The **Customer Performance Report** analyzes Net Sales by customer for fiscal years 2019, 2020, and 2021.
+Analyzes Net Sales performance across different customers for fiscal years **2019, 2020, and 2021**.
 
-It includes:
+The report includes:
 
 * Customer-wise Net Sales
-* Year-over-year sales comparison
-* 2021 vs 2020 growth percentage
-* Overall customer contribution
+* 2019 Net Sales
+* 2020 Net Sales
+* 2021 Net Sales
+* 2021 vs 2020 growth %
 
-## The report shows total Net Sales increasing from **87.5M in 2019** to **196.7M in 2020** and **598.9M in 2021**, representing **304.5% growth from 2020 to 2021**.
+Overall Net Sales increased from **87.5M in 2019** to **196.7M in 2020** and **598.9M in 2021**, with 2021 showing **304.5% growth over 2020**.
+
+---
 
 ### 2. Market Performance vs Target Report
 
-This report evaluates the performance of different countries/markets against their 2021 sales targets.
+Analyzes sales performance across different countries and compares actual 2021 performance against the target.
 
-Key metrics include:
+The report includes:
 
-* Net Sales for 2019
-* Net Sales for 2020
-* Net Sales for 2021
-* Variance from 2021 target
-* Percentage variance from target
+* Country-wise Net Sales
+* 2019 Net Sales
+* 2020 Net Sales
+* 2021 Net Sales
+* Target variance
+* Target variance %
 
-Overall, 2021 Net Sales were **598.9M**, while the total target variance was **-54.9M**, corresponding to **-9.17% against target**.
-The report can be used to identify markets that are performing closer to or farther from their targets.
+The overall 2021 Net Sales were **598.9M**, with a total target variance of **-54.9M**, representing **-9.17% against target**.
 
 ---
 
 ### 3. P&L Statement by Fiscal Year
 
-The fiscal-year P&L report provides a high-level view of financial performance.
+Provides a year-wise overview of the company's financial performance.
 
-It tracks:
+The report analyzes:
 
 * Net Sales
-* Cost of Goods Sold (COGS)
+* COGS
 * Gross Margin
 * Gross Margin %
-
-The reported figures are:
 
 | Metric       |  2019 |   2020 |   2021 |
 | ------------ | ----: | -----: | -----: |
@@ -84,157 +88,145 @@ The reported figures are:
 | Gross Margin | 36.2M |  73.3M | 218.2M |
 | GM %         | 41.4% |  37.3% |  36.4% |
 
-The report shows substantial growth in Net Sales and Gross Margin between 2019 and 2021, while Gross Margin % declined from **41.4% to 36.4%**.
+The analysis shows significant growth in Net Sales and Gross Margin between 2019 and 2021, while Gross Margin % decreased from **41.4% to 36.4%**.
 
 ---
 
 ### 4. P&L Statement by Markets
 
-This report provides a market-level breakdown of the 2021 P&L.
+Provides a market-wise analysis of the company's FY2021 financial performance.
 
-The analysis includes:
+The report includes:
 
 * Net Sales
 * COGS
 * Gross Margin
 * Gross Margin %
 
-For example, India generated **161.26M Net Sales**, with **109.7M COGS**, **51.6M Gross Margin**, and a **32.0% GM %** in FY2021. The USA generated **87.78M Net Sales** with a **37.0% GM %**.
-This report enables comparison of profitability and sales performance across individual markets.
+India was the largest market in the report with **161.26M Net Sales**, **109.7M COGS**, **51.6M Gross Margin**, and **32.0% GM %**.
+
+The USA recorded **87.78M Net Sales** with a **37.0% GM %**.
 
 ---
 
 ### 5. P&L Statement by Months
 
-The monthly P&L report provides a detailed view of financial performance across fiscal years 2019, 2020, and 2021.
+Provides a monthly analysis of P&L performance for fiscal years **2019, 2020, and 2021**.
 
-The report tracks monthly:
+The report analyzes:
 
-* Net Sales
-* COGS
-* Gross Margin
-* Gross Margin %
-* Year-over-year sales comparisons
+* Monthly Net Sales
+* Monthly COGS
+* Monthly Gross Margin
+* Monthly Gross Margin %
+* 2021 vs 2020 performance
+* 2020 vs 2019 performance
 
-For FY2021, Net Sales ranged from **41.5M to 78.1M** across the reported months, while Gross Margin % remained around **36%**.
+For FY2021, monthly Net Sales ranged from **41.5M to 78.1M**, while Gross Margin % remained around 36%.
 
-The report also provides monthly comparisons such as **2021 vs 2020** and **2020 vs 2019**, allowing year-over-year performance analysis.
+The report also provides monthly year-over-year comparisons to identify changes in sales performance.
 
 ---
 
 ## 📈 Key Business Insights
 
-### Strong Sales Growth
+### Sales Growth
 
-AtliQ Hardwares experienced significant growth in Net Sales:
+Net Sales increased significantly over the three fiscal years:
 
-**87.5M → 196.7M → 598.9M**
+**2019:** 87.5M
+**2020:** 196.7M
+**2021:** 598.9M
 
-from FY2019 to FY2021.
+### Gross Margin
 
-### Gross Margin Growth
+Gross Margin increased from **36.2M in 2019** to **218.2M in 2021**.
 
-Gross Margin increased from:
+However, Gross Margin % declined from **41.4% in 2019** to **36.4% in 2021**.
 
-* **36.2M in 2019**
-* **73.3M in 2020**
-* **218.2M in 2021**
+### Customer Performance
 
-However, Gross Margin % decreased from **41.4% in 2019 to 36.4% in 2021**.
+Several customers experienced significant growth between 2020 and 2021.
 
-### Customer Growth
+Examples include:
 
-The customer report demonstrates significant year-over-year growth across many customers. For example, Amazon increased from **37.5M in 2020 to 82.1M in 2021**, while AtliQ e Store increased from **23.7M to 53.0M**.
+* **Amazon:** 37.5M → 82.1M
+* **AtliQ e Store:** 23.7M → 53.0M
+* **AtliQ Exclusive:** 17.7M → 61.1M
+* **Flipkart:** 8.3M → 19.3M
 
 ### Market Performance
 
-India was the largest market in the 2021 market-level P&L report, with **161.26M Net Sales**, followed by the USA at **87.78M** and South Korea at **48.97M**.
+India recorded the highest Net Sales in FY2021 at **161.26M**, followed by the USA at **87.78M** and South Korea at **48.97M**.
 
 ### Target Performance
 
-Despite strong sales growth, overall 2021 performance was **9.17% below the stated target**, with a total variance of **-54.9M**.
+Overall 2021 Net Sales were **9.17% below the target**, with a target variance of **-54.9M**.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📊 Key KPIs
 
-* **Power BI**
-* **Power Query**
-* **DAX**
-* **Microsoft Excel**
-* **Data Visualization**
-* **Business Intelligence**
-* **Sales & Financial Analytics**
-
----
-
-## 📊 Key Metrics
-
-The project focuses on the following KPIs:
-
-| KPI               | Description                                |
-| ----------------- | ------------------------------------------ |
-| Net Sales         | Total sales generated                      |
-| COGS              | Cost of Goods Sold                         |
-| Gross Margin      | Net Sales minus COGS                       |
-| GM %              | Gross Margin as a percentage of Net Sales  |
-| YoY Growth        | Year-over-year sales growth                |
-| Target Variance   | Difference between actual sales and target |
-| Target Variance % | Percentage difference from target          |
+| KPI                   | Description                                |
+| --------------------- | ------------------------------------------ |
+| **Net Sales**         | Total sales generated                      |
+| **COGS**              | Cost of Goods Sold                         |
+| **Gross Margin**      | Net Sales minus COGS                       |
+| **GM %**              | Gross Margin as a percentage of Net Sales  |
+| **YoY Growth %**      | Year-over-year growth in sales             |
+| **Target Variance**   | Difference between actual sales and target |
+| **Target Variance %** | Percentage difference from target          |
 
 ---
 
-## 🔍 Analysis Areas
+## 🔍 Business Questions
 
-The project can be used to answer questions such as:
+This analysis helps answer questions such as:
 
 * How has Net Sales changed over the years?
 * Which customers contribute the most to sales?
+* Which customers experienced significant growth?
 * Which markets generate the highest Net Sales?
-* Which markets have the highest Gross Margin %?
-* How is the company performing against its sales targets?
+* Which markets have better Gross Margin %?
+* How is the company performing against its targets?
 * How have COGS and Gross Margin changed over time?
-* Which months show the highest sales?
+* Which months have the highest Net Sales?
 * How does monthly performance compare year over year?
-* Which markets have stronger or weaker profitability?
+* Which markets have stronger profitability?
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Contents
 
 ```text
 AtliQ-Hardwares-Sales-Analysis/
 │
 ├── README.md
-│
-├── Reports/
-│   ├── Customer Performance Report.pdf
-│   ├── Market Performance vs Target Report.pdf
-│   ├── P&L Statement by Fiscal Year.pdf
-│   ├── P&L Statement by Markets.pdf
-│   └── P&L Statement by Months.pdf
-│
-└── Dashboard/
-    └── Power BI Dashboard (.pbix)
+├── Customer Performance Report.pdf
+├── Market Performance vs Target Report.pdf
+├── P&L Statement by Fiscal Year.pdf
+├── P&L Statement by Markets.pdf
+└── P&L Statement by Months.pdf
 ```
-
-> The folder structure can be modified depending on the actual files included in the GitHub repository.
 
 ---
 
 ## 🚀 Project Outcome
 
-This project demonstrates how business data can be transformed into actionable insights through **data modeling, KPI analysis, and interactive business intelligence reporting**.
+This project demonstrates the use of **Microsoft Excel for sales, financial, and business analysis**.
 
-The reports provide management with visibility into:
+The analysis converts business data into meaningful insights related to:
 
-* Sales growth
+* Sales performance
 * Customer performance
 * Market performance
 * Target achievement
-* Cost structure
+* Cost analysis
 * Gross profitability
-* Monthly and yearly trends
+* Monthly trends
+* Year-over-year growth
+
+This project helped strengthen practical skills in **Excel-based data analysis, Pivot Table reporting, financial analysis, KPI analysis, and business reporting**.
 
 ---
 
@@ -244,12 +236,12 @@ The reports provide management with visibility into:
 
 ### Skills Demonstrated
 
-* Power BI
-* DAX
-* Power Query
+* Microsoft Excel
+* Pivot Tables
 * Data Analysis
-* Data Visualization
-* Business Intelligence
 * Financial Analysis
 * Sales Analytics
-* KPI Development
+* KPI Analysis
+* Business Analytics
+* Reporting
+* Data Visualization
